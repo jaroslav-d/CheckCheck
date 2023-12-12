@@ -6,22 +6,9 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <com.budiyev.android.codescanner.CodeScannerView
-        android:id="@+id/scanner_view"
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:autoFocusButtonColor="@android:color/white"
-        app:autoFocusButtonVisible="true"
-        app:flashButtonColor="@android:color/white"
-        app:flashButtonVisible="true"
-        app:frameColor="@android:color/white"
-        app:frameCornersSize="50dp"
-        app:frameCornersRadius="0dp"
-        app:frameAspectRatioWidth="1"
-        app:frameAspectRatioHeight="1"
-        app:frameSize="0.75"
-        app:frameThickness="2dp"
-        app:frameVerticalBias="0.5"
-        app:maskColor="#77000000"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>
